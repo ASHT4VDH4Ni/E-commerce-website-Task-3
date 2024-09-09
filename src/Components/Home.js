@@ -1,3 +1,4 @@
+
 import React from "react";
 import King from "../Assets/file.png";
 import Pillow from "../Assets/LogPillow.png";
@@ -12,10 +13,10 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-          Get Cozy with the Log Pillow: Clash Royale's Iconic Defense, Now Your Ultimate Comfort!
+            Get Cozy with the Log Pillow: Clash Royale's Iconic Defense, Now Your Ultimate Comfort!
           </h1>
           <p className="primary-text">
-          Soft as a pillow, sturdy as the Log—crafted for ultimate comfort and healthy support.
+            Soft as a pillow, sturdy as the Log—crafted for ultimate comfort and healthy support.
           </p>
           <button className="secondary-button">
             Order Now <FiArrowRight />{" "}

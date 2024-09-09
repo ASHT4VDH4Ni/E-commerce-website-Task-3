@@ -2,7 +2,7 @@ import React from "react";
 import Bat from "../Assets/Bat.jpg";
 import Dragon from "../Assets/Dragon.jpg";
 import RichKing from "../Assets/RichKing.jpg";
-import MegaKnight  from "../Assets/Golden MegaKnight Statue.jpg"
+import MegaKnight from "../Assets/Golden MegaKnight Statue.jpg"
 import Barberian from "../Assets/golden barberian.jpg"
 import Princess from "../Assets/Princess Victory globe.jpg"
 const Work = () => {
@@ -21,7 +21,7 @@ const Work = () => {
       text: "Rule The Arena.",
       buttonText: "Add to Cart",
       price: "9,999₹",
-    }, 
+    },
 
     {
       image: Dragon,
@@ -31,13 +31,13 @@ const Work = () => {
       price: "79₹",
     },
 
-     {
+    {
       image: Barberian,
       title: "Gold Barberian",
       text: "The Golden Barbarian Statue is a striking piece of art that exudes grandeur and strength.Charggg",
       buttonText: "Add to Cart",
       price: "24,500₹",
-     },
+    },
 
     {
       image: RichKing,
@@ -49,7 +49,7 @@ const Work = () => {
     {
       image: Princess,
       title: "Princess Globe",
-      text: "Ignite your charm with this tiny fiery friend.",
+      text: "In the Princess Globe, where dreams entwine.",
       buttonText: "Add to Cart",
       price: "26,000₹",
     },
@@ -85,116 +85,3 @@ const Work = () => {
 };
 
 export default Work;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//3rd edit 

@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -7,8 +8,8 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 
 const ShoppingCart = ({ openCart, toggleCart }) => {
-  const [cartItems, ] = useState([
-   
+  const [cartItems,] = useState([
+
   ]);
 
   return (
@@ -34,68 +35,3 @@ const ShoppingCart = ({ openCart, toggleCart }) => {
 };
 
 export default ShoppingCart;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// 3rd edit 
-
-
-
