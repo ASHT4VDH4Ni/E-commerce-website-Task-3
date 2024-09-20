@@ -3,7 +3,8 @@
 
 Install Any Additional Libraries
  
- 
+ npm install react-icons --save
+ npm install @mui/material @emotion/react @emotion/styled
  npm install react-scroll
 
 
