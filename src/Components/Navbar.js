@@ -66,7 +66,6 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, testimonialsRef, 
           <button className="navbar-link" onClick={toggleCart}>
             <BsCart2 className="navbar-cart-icon" />
           </button>
-          {/* Update the onClick handler for "Shop Now" button */}
           <button className="primary-button" onClick={() => scrollToSection(workRef)}>Shop Now</button>
         </div>
         <div className="navbar-menu-container">
@@ -93,8 +92,7 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, testimonialsRef, 
           </Box>
         </Drawer>
       </nav>
-
-      {/* Include ShoppingCart component */}
+              
       <ShoppingCart openCart={openCart} toggleCart={toggleCart} />
     </>
   );
