@@ -15,7 +15,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCart from "./ShoppingCart"; // Import the ShoppingCart component
+import ShoppingCart from "./ShoppingCart"; 
 
 const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, testimonialsRef, contactRef }) => {
   const [openMenu, setOpenMenu] = useState(false);
