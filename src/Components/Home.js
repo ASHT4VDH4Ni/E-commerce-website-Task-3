@@ -1,8 +1,6 @@
 
 import React from "react";
-import King from "../Assets/file.png";
-import Pillow from "../Assets/LogPillow.png";
-import { FiArrowRight } from "react-icons/fi";
+import King from "../Assets/hero_bg_clashroyale.612fcf42.jpg";
 
 const Home = () => {
   return (
@@ -13,17 +11,9 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Get Cozy with the Log Pillow: Clash Royale's Iconic Defense, Now Your Ultimate Comfort!
+           Welcome To The Arena Shop
           </h1>
-          <p className="primary-text">
-            Soft as a pillow, sturdy as the Log—crafted for ultimate comfort and healthy support.
-          </p>
-          <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
-          </button>
-        </div>
-        <div className="home-image-section">
-          <img src={Pillow} alt="" />
+          
         </div>
       </div>
     </div>

@@ -15,7 +15,11 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
+<<<<<<< HEAD
 import ShoppingCart from "./ShoppingCart"; 
+=======
+import ShoppingCart from "./ShoppingCart";
+>>>>>>> a2f2847 (First commit)
 
 const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, testimonialsRef, contactRef }) => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -30,12 +34,12 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, testimonialsRef, 
       ref: homeRef,
     },
     {
-      text: "About",
+      text: "Accessories",
       icon: <InfoIcon />,
       ref: aboutRef,
     },
     {
-      text: "Work",
+      text: "Merchandise",
       icon: <InfoIcon />,
       ref: workRef,
     },
@@ -59,8 +63,8 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, testimonialsRef, 
         </div>
         <div className="navbar-links-container">
           <button className="navbar-link" onClick={() => scrollToSection(homeRef)}>Home</button>
-          <button className="navbar-link" onClick={() => scrollToSection(aboutRef)}>About</button>
-          <button className="navbar-link" onClick={() => scrollToSection(workRef)}>Work</button>
+          <button className="navbar-link" onClick={() => scrollToSection(aboutRef)}>Accessories</button>
+          <button className="navbar-link" onClick={() => scrollToSection(workRef)}>Merchandise</button>
           <button className="navbar-link" onClick={() => scrollToSection(testimonialsRef)}>Testimonials</button>
           <button className="navbar-link" onClick={() => scrollToSection(contactRef)}>Contact</button>
           <button className="navbar-link" onClick={toggleCart}>
@@ -92,7 +96,11 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, testimonialsRef, 
           </Box>
         </Drawer>
       </nav>
+<<<<<<< HEAD
               
+=======
+
+>>>>>>> a2f2847 (First commit)
       <ShoppingCart openCart={openCart} toggleCart={toggleCart} />
     </>
   );

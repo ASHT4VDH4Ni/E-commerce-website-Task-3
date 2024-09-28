@@ -7,7 +7,7 @@ const Testimonial = () => {
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Testimonial</p>
+        <p className="primary-subheading"><h1>Testimonial</h1></p>
         <h1 className="primary-heading">What They Are Saying</h1>
         <p className="primary-text">
           Discover what everyone’s raving about! Our customers can’t stop talking about how our products exceed expectations with exceptional quality and delightful surprises.
@@ -17,9 +17,10 @@ const Testimonial = () => {
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-          Attention, brave shopper! Be extra careful with your delivery,those cheeky goblins might be lurking around,
-          ready to swipe your goodies for a sneaky midnight feast.
-          Watch out for sneaky goblins! Double-check your delivery—some of us might 'borrow' your loot for a midnight snack!
+        Why bother with all these shiny trinkets when you could have the genuine craftsmanship of my shop?
+        Sure, those fancy items are pretty, but can they brew a potion that makes you dance like no one’s watching?
+        I didn’t think so! Come on over to Goblin's Curiosities, where our products come with a 100% money-back guarantee if you don’t turn into a frog within a week!
+        Just kidding—no refunds! But hey, you might get a great story out of it!
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />
