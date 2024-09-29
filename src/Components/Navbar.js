@@ -15,11 +15,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-<<<<<<< HEAD
 import ShoppingCart from "./ShoppingCart"; 
-=======
-import ShoppingCart from "./ShoppingCart";
->>>>>>> a2f2847 (First commit)
 
 const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, testimonialsRef, contactRef }) => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -96,11 +92,7 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, testimonialsRef, 
           </Box>
         </Drawer>
       </nav>
-<<<<<<< HEAD
-              
-=======
 
->>>>>>> a2f2847 (First commit)
       <ShoppingCart openCart={openCart} toggleCart={toggleCart} />
     </>
   );
